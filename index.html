@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+
+    <div class="bar">
+        <a href="#home" aria-label="Home">
+            <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+                <i class='bx bx-home'></i>
+            </span>
+        </a>
+        <a href="#about" aria-label="About Me">
+            <span class="icon">
+                <ion-icon name="person-outline"></ion-icon>
+                <i class='bx bx-user-circle'></i>
+            </span>
+        </a>
+        <a href="#services" aria-label="Skills">
+            <span class="icon">
+                <ion-icon name="briefcase-outline"></ion-icon>
+                <i class='bx bx-briefcase'></i>
+            </span>
+        </a>
+        <a href="#projects" aria-label="Projects">
+            <span class="icon">
+                <ion-icon name="grid-outline"></ion-icon>
+                <i class='bx bx-edit'></i>
+            </span>
+        </a>
+        <a href="#contacts" aria-label="Contact">
+            <span class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+                <i class='bx bx-message-rounded-dots'></i>
+            </span>
+        </a>
+    </div>
+
+    <section id="home" class="home">
+        <img class="dp" src="dp.jpeg" alt="Profile Picture">
+        <h1 class="name">Samhita M</h1>
+        <p class="p1">I'm a <span class="text"></span></p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=61561978412899" class="fb" target="_blank"><i
+                    class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/samhita_mahe/" class="insta" target="_blank"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://wa.me/7826045193" class="wp" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <p class="p2">Scroll Down</p>
+        <a href="javascript:void(0)" class="mouse"><i class='bx bx-mouse'></i></a>
+    </section>
+    <section id="about" class="aboutMe">
+        <div class="column1">
+            <h2>About Me</h2>
+            <section class="skill-class">
+                <div class="skills-group">
+                    <div class="skill">
+                        <p><span class="title-span">Web Design</span> <span class="percent-span">80%</span></p>
+                        <div class="progress-bar">
+                            <div class="progress1" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p><span class="title-span">Java</span> <span class="percent-span">70%</span></p>
+                        <div class="progress-bar">
+                            <div class="progress2" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-group">
+                    <div class="skill">
+                        <p><span class="title-span">React, Node.js & Express</span> <span class="percent-span">70%</span></p>
+                        <div class="progress-bar">
+                            <div class="progress3" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="skills-group">
+                    <div class="skill">
+                        <p><span class="title-span">JavaScript</span> <span class="percent-span">80%</span></p>
+                        <div class="progress-bar">
+                            <div class="progress4" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </div>
+        <div class="column2">
+            <p>Information Technology student with a passion for full-stack development, REST APIs, and UI/UX designing.
+                Proven ability to learn new technologies quickly and apply them to real-world projects. Seeking
+                opportunities to contribute my skills in creating impactful, user-centric applications while
+                continuously growing as a developer and designer.</p>
+
+            <button class="cv"><a href="resume.pdf" class="cv-a" >View CV</a></button>
+        </div>
+    </section>
+
+    <h2 id="services" class="service-heading">Services</h2>
+
+    <div class="wrapper">
+        <div class="card-main">
+            <img src="service2.jpg" />
+            <h3 class="image-name">Full Stack Development</h3>
+            <div class="card-cont">
+                <a href="#projects">View Projects</a>
+            </div>
+        </div>
+        <div class="card-main">
+            <img src="service1.jpg" />
+            <h3 class="image-name">Designing</h3>
+            <div class="card-cont">
+                <a href="#projects">View Projects</a>
+            </div>
+        </div>
+        <div class="card-main">
+            <img src="service3.jpg" />
+            <h3 class="image-name">API Integration</h3>
+            <div class="card-cont">
+                <a href="#projects">View Projects</a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <section id="projects" class="projects-list">
+        <div class="pro1">
+            <div class="content">
+                <h2>PROJECT 1</h2>
+                <h3>Healio: Intelligent Wellness Companion</h3>
+                <p>Developed Healio, a wellness bot offering personalized health guidance, appointment scheduling, meal planning, and mental wellness support. Integrated multiple APIs for seamless user experiences, including nearby hospital location services and secure OTP verification for transactions.</p>
+                <a href="https://github.com/samhitamahe/Healio-Your-Personal-Wellness-Assistant" target="_blank" style="color: aquamarine;">View on GitHub</a>
+            </div>
+        </div>
+    
+        <div class="pro2">
+            <div class="content">
+                <h2>PROJECT 2</h2>
+                <h3>Spam SMS Detection App</h3>
+                <p>Developed SMS Guard, a spam detection app utilizing the Multinomial Naive Bayes algorithm, achieving high accuracy in classifying messages through advanced preprocessing and model evaluation techniques.</p>
+                <p><strong>Published in IEEE Conference</strong>: This project was presented as a research paper at the IEEE ICSCNA conference, highlighting its innovative approach in spam detection and machine learning.</p>
+                <a href="SMS Guard.pdf" target="_blank" class="pdf-link">View Research Paper</a> 
+            </div>
+            <div class="image">
+                <img src="sms-guard.jpeg" alt="Spam SMS Detection App">
+            </div>
+        </div>
+        
+    
+        <div class="pro3">
+            <div class="content">
+                <h2>PROJECT 3</h2>
+                <h3>Refrain-Addiction Initiative</h3>
+                <p>Developed a comprehensive initiative to address and mitigate addiction to drugs and pornography, focusing on prevention, awareness, and recovery strategies through evidence-based approaches.</p>
+                <a href="https://github.com/samhitamahe/refrain-addiction/tree/main" target="_blank" style="color: aquamarine;">View on GitHub</a>
+            </div>
+            <div class="image">
+                <img src="refrain-addiction.png" alt="Refrain-Addiction Initiative">
+            </div>
+        </div>
+    
+        <div class="pro4">
+            <div class="content">
+                <h2>PROJECT 4</h2>
+                <h3>Beauty Parlour Management System</h3>
+                <p>A web-based solution developed with PHP and MySQL to streamline beauty parlour operations, offering online appointment booking, service management, customer tracking, and administrative reporting through a user-friendly, responsive platform.</p>
+            </div>
+            <div class="image">
+                <img src="beauty-parlour.png" alt="Beauty Parlour Management System">
+            </div>
+        </div>
+
+        <div class="pro5">
+            <div class="content">
+                <h2>PROJECT 5</h2>
+                <h3>Autonomous Water Surface Cleaning Robot</h3>
+                <p>The autonomous system for water surface cleaning enables the quick removal of debris and assures efficient cleaning to maintain environmental sustainability. Materials used in this model are lightweight, like carbon fiber and fiberglass. The proposed structure is based on a hydrodynamic hull design which ensures stability. Propulsion is provided by 500W DC motors equipped with three-blade propellers. Advanced AI models such as YOLO and PPO are used for object detection and navigation. IoT integration enables real-time monitoring, while the collection of debris is done through a conveyor belt system. The paper supports HD cameras with live streaming.</p>
+                <a href="external.pdf" target="_blank" class="pdf-link" style="color: aquamarine;">View External Design PDF</a>
+                <a href="internal.pdf" target="_blank" class="pdf-link" style="color: aquamarine;">View Internal Design PDF</a>
+            </div>
+            <div class="image">
+                <img src="water-robot.png" alt="Autonomous Water Surface Cleaning Robot">
+            </div>
+        </div>
+        
+        <div class="pro6">
+            <div class="content">
+                <h2>PROJECT 6</h2>
+                <h3>Personalized Fan Highlights Application Design</h3>
+                <p>This project involves the design of a Personalized Fan Highlights application aimed at providing users with customized content based on their interests. The design is focused on a smooth user experience, intuitive navigation, and engaging visual components. The Figma design showcases the entire flow of the application, from the login page to personalized content delivery, ensuring a seamless and immersive experience.</p>
+                <a href="mlb.pdf" target="_blank" class="pdf-link" style="color: aquamarine;">View Figma Design PDF</a> <!-- Link to Figma design PDF -->
+            </div>
+            <div class="image">
+                <img src="mlb.jpg" alt="Personalized Fan Highlights Application Design">
+            </div>
+        </div>
+    </section>
+    
+    <section id="certificates" class="certificates">
+        <h2 class="certificates-heading">My Certificates</h2>
+        <div class="certificates-slider">
+            <button class="nav-button prev">&lt;</button>
+            <div class="certificates-container">
+                <div class="certificate-item">
+                    <img src="certificate1.JPG" alt="Certificate 1">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate2.JPG" alt="Certificate 2">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate3.JPG" alt="Certificate 3">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate4.JPG" alt="Certificate 4">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate5.JPG" alt="Certificate 5">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate6.JPG" alt="Certificate 6">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate7.JPG" alt="Certificate 7">
+                </div>
+                <div class="certificate-item">
+                    <img src="certificate8.JPG" alt="Certificate 8">
+                </div>
+            </div>
+            <button class="nav-button next">&gt;</button>
+        </div>
+    </section>
+
+
+    <div id="contacts" class="whole-contact">
+        <h2 class="contact-heading">Contact</h2>
+        <section class="contact">
+            <div class="column-1">
+                <h3>Drop Me a Message</h3>
+                <p>I'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel
+                    free to reach out. I'm always open to new opportunities and collaborations. Let's connect and make
+                    something amazing together!</p>
+                <div class="contact-icons">
+                    <div class="row1">
+                        <a href="#" class="phone"><i class='bx bx-phone-call'></i></a>
+                        <article>+91 6954782354</article>
+                    </div>
+                    <div class="row2">
+                        <a href="#" class="mail"><i class='bx bx-envelope'></i></a>
+                        <article>samhita162004@gmail.com</article>
+                    </div>
+                    <div class="row3">
+                        <a href="#" class="address"><i class='bx bx-map'></i></a>
+                        <article>Town Hall,<br>Banglore</article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column-2">
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="Message" placeholder="Message" id="message">
+                <button id="send-btn">Send</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
